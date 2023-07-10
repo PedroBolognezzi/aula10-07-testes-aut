@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.2",
+    "jest": "^29.6.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.2",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest --forceExit"
+  },
+  "name": "aula10-07-testes",
+  "description": "API exemplo com testes automatizados para consulta",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
