@@ -31,7 +31,6 @@ describe('livrosControllers', () => {
                 "nome": "Livro Teste",
                 "autor": "Seu Zé",
                 "categoria": "Teste"
-            
         }
         request(app)
         .post('/api/novolivro')

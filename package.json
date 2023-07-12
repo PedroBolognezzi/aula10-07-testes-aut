@@ -21,5 +21,10 @@
   "main": "server.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "jest":{
+    "setupFiles": [
+      "<rootDir>/src/test/jest.setup.js"
+    ]}
 }
